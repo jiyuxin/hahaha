@@ -1,0 +1,274 @@
+    1  git config --global user.name "JiYuXin"
+    2  git config --global user.email "735690758@qq.com"
+    3  $ mkdir learngit
+    4  $ cd learngit
+    5  $ pwd
+    6  mkdir learngit
+    7  cd learngit
+    8  pwd
+    9  pwd
+   10  /Users/michael/learngit
+   11  git init
+   12  Initialized empty Git repository in /Users/michael/learngit/.git/
+   13  git init Initialized empty Git repository in /Users/michael/learngit/.git/
+   14  git add readme.txt
+   15  git commit -m "wrote a readme file"
+   16  git status
+   17  git diff
+   18  git add
+   19  git add readme.txt
+   20  git status
+   21  git commit -m "add distributed"
+   22  git status
+   23  ssh-keygen -t rsa -C "735690758@qq.com"
+   24  git remote add origin git@github.com:jiyuxin/learngit.git
+   25  git push -u origin master
+   26  git remote add origin git@github.com:jiyuxin/testone.git
+   27  git remote add origin git@github.com:jiyuxin/testone.git
+   28  git newremote add origin git@github.com:jiyuxin/testone.git
+   29  git remote add neworigin git@github.com:jiyuxin/testone.git
+   30  git push -u neworigin master
+   31  git init
+   32  git log
+   33  git status
+   34  git log
+   35  git log --oneline
+   36  git reset --hard
+   37  git branch
+   38  git branch dev
+   39  git branch dev
+   40  git clone git@github.com:jiyuxin/web-essential-docs.git
+   41  git clone git@github.com:jiyuxin/web-essential-docs.git
+   42  git clone git@github.com:jiyuxin/web-essential-docs.git
+   43  git init
+   44  git clone 
+   45  git clone 
+   46  git clone git@github.com:jiyuxin/web-essential-docs.git
+   47  git clone https://github.com/jiyuxin/web-essential-docs.git
+   48  git clone 
+   49  git clone 
+   50  git clone git@github.com:jiyuxin/web-essential-docs.git
+   51  git log --oneline
+   52  git config
+   53  git config --list
+   54  git clone https://github.com/curiositry/undefined-ghost-theme.git
+   55  git log --oneline
+   56  git branch
+   57  git branch dev
+   58  git branch
+   59  git branch dev
+   60  git branch
+   61  git branch -d dev
+   62  git branch
+   63  pwd
+   64  pwd
+   65  git config --list
+   66  rm 1.txt
+   67  rm 111
+   68  rm -rf 111
+   69  clear
+   70  mkdir git-dir
+   71  cd git-dir/
+   72  cd d:
+   73  cd c:
+   74  cd ~/Desktop/git-dir
+   75  git init
+   76  ls
+   77  ls -al
+   78  clear
+   79  touch 1.txt
+   80  pwd
+   81  ls
+   82  cat 1.txt
+   83  vi 1.txt
+   84  cat 1.txt
+   85  vi 1.txt
+   86  cat 1.txt
+   87  git status
+   88  clear
+   89  git add .
+   90  git status
+   91  git commit -m "first commit"
+   92  git log
+   93  git diff
+   94  vi 1.txt
+   95  git status
+   96  git diff
+   97  git diff master
+   98  git diff --cached
+   99  git add
+  100  git add .
+  101  git status
+  102  git diff
+  103  git master
+  104  git diff master
+  105  git diff --cached
+  106  git commit -m "second"
+  107  git log
+  108  git log --list
+  109  vi 1.txt
+  110  vi 1.txt
+  111  git status
+  112  git checkout .
+  113  git status
+  114  git status
+  115  vi 1.txt
+  116  git status
+  117  git add .
+  118  git status
+  119  git reset HEAD .
+  120  git status
+  121  git checkout .
+  122  history > 2.txt
+  123  git log
+  124  git reflog
+  125  git branch
+  126  git branch dev
+  127  git branch
+  128  git checkout dev
+  129  git branch
+  130  git checkout master
+  131  git branch -D dev
+  132  git branch
+  133  git checkout -b dev
+  134  mkdir git-test
+  135  cd git-test/
+  136  pwd
+  137  touch 1.txt
+  138  vi 1.txt
+  139  cat 1.txt
+  140  mkdir 111
+  141  pwd
+  142  ls
+  143  cd 111/
+  144  pwd
+  145  ls
+  146  ls
+  147  touch 2.txt
+  148  pwd
+  149  ls
+  150  vi 2.txt
+  151  cat 2.txt
+  152  cd ../
+  153  pwd
+  154  ls
+  155  pwd
+  156  rm 111/
+  157  rm -rf 111/
+  158  ls
+  159  mv 1.txt ~/Desktop/
+  160  cd ../
+  161  cd ../
+  162  pwd
+  163  ls
+  164  cd d:
+  165  pwd
+  166  cd ~/Desktop
+  167  pwd
+  168  ls
+  169  cd git-test
+  170  pwd
+  171  mkdir ccc
+  172  ls
+  173  touch ccc.txt
+  174  ls
+  175  rm -rf ccc.txt
+  176  ls
+  177  rm -rf ccc/
+  178  ls
+  179  ls
+  180  ls
+  181  cd ../
+  182  mv 1.txt git-test/
+  183  cd git-test
+  184  ls
+  185  pwd
+  186  git config -v
+  187  git config -v
+  188  git init
+  189  git branch
+  190  git config -v
+  191  git config
+  192  git config --list
+  193  cls
+  194  clear
+  195  git status
+  196  git add ./
+  197  git status
+  198  git rm --cache .
+  199  git status
+  200  git rm --cache -r
+  201  git status
+  202  git rm 1.txt
+  203  git status
+  204  git status
+  205  git rm --cache 1.txt
+  206  git status
+  207  git log
+  208  git add -A
+  209  git status
+  210  git branch
+  211  git commit -m 'root commit'
+  212  git log
+  213  git log --list
+  214  git log 
+  215  git log
+  216  git log -list
+  217  git log -help
+  218  git log
+  219  git diff
+  220  touch 2.txt
+  221  git status
+  222  git diff
+  223  git add .
+  224  git status
+  225  git diff
+  226  git status
+  227  git rm --cache 2.txt
+  228  git status
+  229  git add .
+  230  git commit -m 'second commit'
+  231  git log
+  232  ls
+  233  vi 1.txt
+  234  git status
+  235  cat 1.txt
+  236  git diff
+  237  git status
+  238  git diff
+  239  git status
+  240  git checkout .
+  241  git diff
+  242  cat 1.txt
+  243  cat 1.txt
+  244  vi 1.txt
+  245  cat 1.txt
+  246  git status
+  247  git add .
+  248  git status
+  249  git reset HEAD .
+  250  git status
+  251  cat 1.txt
+  252  git checkout .
+  253  cat 1.txt
+  254  cat 1.txt
+  255  vi 1.txt
+  256  cat 1.txt
+  257  git status
+  258  git choukout .
+  259  git status
+  260  git status
+  261  vi 1.txt
+  262  cat 1.txt
+  263  git status
+  264  git add .
+  265  git status
+  266  git reset HEAD .
+  267  git status
+  268  cat 1.txt
+  269  git checkput .
+  270  cat 1.txt
+  271  git checkout
+  272  git checkout .
+  273  cat 1.txt
+  274  history > 3.txt
